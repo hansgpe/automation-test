@@ -14,7 +14,7 @@
     "build": "npm-run-all clean lint tsc cp-assets",
     "start": "node ."
   },
-  "author": "",
+  "author": "Gabriel Hans González Peña",
   "license": "ISC",
   "dependencies": {
     "@types/request-promise": "^4.1.45",
@@ -39,6 +39,7 @@
     "@types/request": "^2.48.4",
     "@types/request-promise-native": "^1.0.17",
     "@types/shelljs": "^0.8.6",
+    "cypress": "^7.7.0",
     "fs-extra": "^8.1.0",
     "nodemon": "^2.0.2",
     "npm-run-all": "^4.1.5",
@@ -47,5 +48,17 @@
     "ts-node": "^8.6.2",
     "tslint": "^6.0.0",
     "typescript": "^3.7.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hansgpe/automation-test.git"
+  },
+  "keywords": [
+    "test",
+    "automation"
+  ],
+  "bugs": {
+    "url": "https://github.com/hansgpe/automation-test/issues"
+  },
+  "homepage": "https://github.com/hansgpe/automation-test#readme"
 }
